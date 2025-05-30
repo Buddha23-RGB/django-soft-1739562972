@@ -1,0 +1,21 @@
+"startgit": {
+    "shellPath": "C:\\path\\to\\your\\Git\\git-bash.exe", // Required: Full path to git-bash.exe
+    "cwd": "C:\\path\\to\\your\\project" // Optional: The directory where the shell should open
+}
+"startshell": {
+    "shells": [
+        {
+            "name": "Git Bash", // A friendly name for the shell picker
+            "path": "C:\Program Files\Git\git-bash.exe" // Full path to the shell executable
+        },
+        {
+            "name": "PowerShell",
+            "path": "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+        },
+        {
+            "name": "Command Prompt",
+            "path": "C:\Windows\System32\cmd.exe"
+        }
+        // Add more custom shells here
+    ]
+}

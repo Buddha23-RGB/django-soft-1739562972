@@ -69,8 +69,8 @@ $ cd django-soft-1739562972
 > Install modules via `VENV`  
 
 ```bash
-$ virtualenv env
-$ source env/bin/activate
+virtualenv env
+source env/bin/activate
 $ pip install -r requirements.txt
 ```
 
