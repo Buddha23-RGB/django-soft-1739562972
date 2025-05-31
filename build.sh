@@ -17,3 +17,4 @@ python manage.py migrate
 
 #__API_GENERATOR__
 #__API_GENERATOR__END
+py
